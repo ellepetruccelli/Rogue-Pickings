@@ -1,0 +1,162 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+	margin:0 auto;
+	width: 1200px;
+}
+
+.half-width {
+	float: left;
+	width: 600px;
+}
+
+.third-width {
+	float: left;
+	width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 110px;
+	overflow: ;
+}
+
+header h1 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 23px;
+	padding: 45px 0 40px 20px;
+	text-transform: uppercase;
+}
+
+header h1 span {
+	color: green;
+}
+
+nav {
+	float: right;
+	padding: 50px 0px 45px 0;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	color: green;
+	font-size: 14px;
+	line-height: 23px;
+	padding-left: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/***** TOP *****/
+
+#top .full-width {
+	height: 465px;
+	padding: 0 20px 40px 20px;
+}
+
+#top img {
+	border-top: 3px solid green;
+	border-bottom: 3px solid green;
+	width: 100%;
+}
+
+#top h2 {
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#top p {
+	font-size: 16px;
+	line-height: 25px;
+	padding-right: 45px;
+}
+
+/***** BOTTOM *****/
+
+#bottom .full-width {
+	height: 210px;
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+}
+
+#bottom h3 {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 25px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+#bottom .third-width .left {
+	border-right: 1px solid #D3D3D3;
+}
+
+#bottom .third-width .middle {
+	border-right: 1px solid #D3D3D3;
+}
+
+#bottom .third-width .middle h3 {
+	padding-left: 30px;
+}
+
+#bottom .third-width .middle p {
+	font-size: 16px
+	line-height: 21px;
+	margin-bottom: 25px;
+	padding: 0 50px 0 30px;
+}
+
+#bottom .third-width .right p {
+	font-size: 16px;
+	line-height: 24px;
+	padding-left: 30px;
+}
+
+#bottom .third-width .right h3 {
+	padding-left: 30px;
+}
+
+#bottom ul li {
+	display: block;
+}
+
+#bottom ul li a {
+	color: green;
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	margin-left: -20px;
+}
+
+/***** FOOTER *****/
+
+#footer h2 {
+	font-size: 12px;
+	font-weight: bold;
+	height: 80px;
+	line-height: 25px;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#footer h2 span {
+	color: green;
+	font-family: 'Sacramento', cursive;
+	font-size: 20px;
+	font-weight: lighter;
+	text-transform: lowercase;
+}
